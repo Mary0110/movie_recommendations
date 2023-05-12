@@ -24,7 +24,7 @@ let carousel = document.getElementById("k");
 //
 //     let a = document.createElement("a");
 //     a.className = "carousel_item";
-//     a.href = "film_main.html";
+//     a.href = "index.html";
 //     a.addEventListener("click", setFilm);
 //     li.append(a);
 //
@@ -227,7 +227,7 @@ else{
 
     let a = document.createElement("a");
     a.className = "carousel_item";
-    a.href = "film_main.html";
+    a.href = "index.html";
     a.addEventListener("click", setFilm);
     li.append(a);
 

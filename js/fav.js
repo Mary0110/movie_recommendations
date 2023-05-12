@@ -56,7 +56,7 @@ fav_list.forEach(async(movie) => {
   ha.textContent = tmp.name.toString();
   ha.addEventListener("click",  setFilm);
 
-  ha.href = "film_main.html";
+  ha.href = "index.html";
   over.append(ha);
 
   let ul = document.createElement("ul");
