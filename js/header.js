@@ -63,7 +63,7 @@ if(getCookie("uid")){
   header_right.append(my_favs);
 
 }else{
-  let header_right = document.getElementById('header-right');
+  // let header_right = document.getElementById('header-right');
   let sign=document.createElement('a');
   sign.className="your-ratings inter-bold-white-16px";
   sign.textContent="sign in";
