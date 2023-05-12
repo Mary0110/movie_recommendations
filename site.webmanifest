@@ -1,0 +1,12 @@
+{
+  "short_name": "film db",
+  "name": "",
+  "icons": [{
+    "src": "img/Vector-2.svg",
+    "type": "image/svg",
+    "sizes": "192x192"
+  }],
+  "start_url": "/?utm_source=homescreen",
+  "background_color": "#fafafa",
+  "theme_color": "#fafafa"
+}

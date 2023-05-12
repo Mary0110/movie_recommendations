@@ -1,0 +1,208 @@
+.film-db {
+  height: 24px;
+  width: 75px;
+}
+
+.your-ratings {
+  letter-spacing: 0;
+  line-height: normal;
+  min-height: 19px;
+  white-space: nowrap;
+}
+
+.what-to-watch-carousel {
+  /*align-items: flex-start;*/
+  /*display: flex;*/
+  /*flex-direction: column;*/
+  height: 1000px;
+  overflow: hidden;
+  overflow-x: scroll;
+  width: 100%;
+}
+.what-to-watch-carousel::-webkit-scrollbar {
+  display: none;
+  width: 0;
+}
+.top-pics {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-left: 20px;
+  min-height: 24px;
+  min-width: 83px;
+  white-space: nowrap;
+  text-decoration: none;
+}
+.overlap-group-container {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.overlap-group {
+  height: 300px;
+  flex-direction: column;
+  /*position: relative;*/
+  width: 294px;
+}
+.frame-container-1 {
+  height: 664px;
+  margin-left: 56px;
+  position: relative;
+  width: 358px;
+}
+
+.overlap-group-2 {
+  align-self: center;
+  height: 74px;
+  position: relative;
+  width: 294px;
+}
+.item_star {
+  align-items: center;
+  display: flex;
+  height: 40px;
+  justify-content: flex-start;
+  width: 294px;
+  margin-top:15px;
+}
+.no-country-for-old-men {
+  letter-spacing: 0;
+  line-height: normal;
+  min-height: 24px;
+  white-space: nowrap;
+}
+
+.text-1 {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-bottom: -1px;
+  min-height: 24px;
+  min-width: 25px;
+  white-space: nowrap;
+}
+
+.image-4 {
+  height: auto;
+  /*margin-left: -76px;*/
+  /*object-fit: contain;*/
+
+  max-width: 100%;
+  object-fit: cover;
+}
+.overlap-group4 {
+  align-self: flex-end;
+  height: 661px;
+  position: relative;
+  width:   359px
+;
+}
+.carousel_item {
+  /*align-items: flex-end;*/
+  flex-direction: column;
+  display: flex;
+  height: 1000px;  /*left: 403px;*/
+  /*padding: 15.6px 29px;*/
+  /*top: 0;*/
+  margin-top:20px;
+  width: 359px;
+  object-fit: contain;
+}
+.image_border{
+  align-self: center;
+  object-position: center;
+  /* height: 530px; */
+  /* width: 360px; */
+  margin: 0;
+}
+
+
+
+.prev, .next{
+  width:20px;
+
+  font: var(--font-family-inter);
+  color:var(--cultured-pearl);
+}
+.prev{
+  margin-right: 0;
+}
+.next{
+  margin-left: 0;
+}
+
+.frame-26 {
+  align-items: flex-end;
+  display: flex;
+  height: 37px;
+  left: 62px;
+  overflow: hidden;
+  top: 26px;
+  width: 50px;
+}
+
+.overlap-group-1 {
+  height: 38px;
+  margin-bottom: -1px;
+  position: relative;
+  width: 50px;
+}
+
+.text {
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+  margin-left: 10px;
+}
+
+. frame-24 {
+  align-items: flex-end;
+  display: flex;
+  height: 37px;
+  left: 0;
+  overflow: hidden;
+  padding: 0 10px;
+  top: 0;
+  width: 50px;
+}
+
+.the-godfather {
+  letter-spacing: 0;
+  line-height: normal;
+  min-height: 24px;
+  white-space: nowrap;
+}
+.star {
+  margin:0;
+}
+.vector {
+  height: 34px;
+  left: 26px;
+  top: 34px;
+  width: 36px;
+}
+angle-left {
+  height: 100px;
+  left: 331px;
+  top: 186px;
+  width: 100px;
+}
+.frame-16 {
+  align-items: flex-end;
+  display: flex;
+  height: 661px;
+  left: 0;
+  padding: 15.6px 29px;
+  top: 0;
+  width: 359px;
+}
+.the-godfather-1 {
+  letter-spacing: 0;
+  line-height: normal;
+  min-height: 24px;
+  white-space: nowrap;
+}
+
+.main-li{
+  color:var(--white);
+  list-style-type: none;
+}

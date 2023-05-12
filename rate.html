@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Rate pop-up screen</title>
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/film_main.css">
+  <link rel="stylesheet" href="css/main_page.css">
+  <script src="https://kit.fontawesome.com/8715e98a8f.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+<header class="header"  id="header_body">
+<!--  <div class="logo">-->
+<!--    <a class="film-db" href="main_page.html" >FilmDb</a>-->
+<!--  </div>-->
+<!--  <label>-->
+<!--    <input class="search">-->
+<!--  </label>-->
+<!--  <div class="nav_right" id="header-right">-->
+<!--    <a class= "your-ratings inter-bold-white-16px" href="fav.html">Your ratings</a>-->
+<!--  </div>-->
+</header>
+<div class="inside_content">
+<div class="cont">
+    <div class="film_header">
+      <h1 class="title">Triangle of Sadness</h1>
+      <div class="rating_corner">
+        <img class="yellow_star" src="img/Vector-2.svg" alt="star_yell" />
+        <div class="rating_num inter-medium-white-32px">7.7</div>
+        <img class="blue_star" src="img/Vector-3.svg" alt="star_blue" />
+        <a class="rate" href="404.html">Rate</a>
+      </div>
+    </div>
+    <ul>
+      <li class="datetime">1998</li>
+      <li class="datetime">1h 57m 18</li>
+    </ul>
+    <div class="poster_video">
+      <img class="poster" src="img/tr.jpeg" alt="poster">
+      <iframe class="video" src="https://www.youtube.com/embed/VDvfFIZQIuQ?start=10" ></iframe>
+    </div>
+    <div class="genre_cont">
+      <div class="genre_oval">
+        <p class= "genre inter-normal-cultured-pearl-24px">Comedy</p>
+      </div>
+      <div class="genre_oval">
+        <p class="genre inter-normal-cultured-pearl-24px">Crime</p>
+      </div>
+    </div>
+
+    <ul class= "people_list">
+      <li class="people_line">
+        <p class="director  inter-medium-white-32px">Director</p>
+        <ul>
+          <li class="director-1 inter-bold-cornflower-blue-24px">Director</li>
+        </ul>
+      </li>
+      <li class="people_line">
+        <p class="director inter-medium-white-32px">Writer</p>
+        <ul>
+          <li class="director-1 inter-bold-cornflower-blue-24px">Writer1</li>
+          <li class="director-1 inter-bold-cornflower-blue-24px">Writer2</li>
+        </ul>
+      </li>
+      <li class="people_line">
+        <p class="director  inter-medium-white-32px">Stars</p>
+        <ul>
+          <li class="director-1 inter-bold-cornflower-blue-24px">Star1</li>
+          <li class="director-1 inter-bold-cornflower-blue-24px">Star2</li>
+        </ul>
+    </ul>
+</div>
+<div class="rating-screen">
+  <figure class="image-border-star-1">
+    <img class="star-2" src="img/Vector-3.svg" alt="star" />
+  </figure>
+  <form class="star-line" method="get" action = "film_main.html">
+    <div class="header2 inter-medium-white-32px">Rate this movie</div>
+    <x-star-rating class = "x-star-rating" value="1">
+    </x-star-rating>
+    <button class="yellow-button inter-bold-black-48px" type="submit">Rate</button>
+  </form>
+</div>
+</div>
+<script type="module" src = "js/rate.js"></script>
+</body>
+</html>

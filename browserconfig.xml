@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Please read: https://msdn.microsoft.com/en-us/library/ie/dn455106.aspx -->
+<browserconfig>
+  <msapplication>
+    <tile>
+      <square70x70logo src="img/Vector-2.svg"/>
+      <square150x150logo src="img/Vector-2.svg"/>
+      <wide310x150logo src="img/Vector-2.svg"/>
+      <square310x310logo src="img/Vector-2.svg"/>
+    </tile>
+  </msapplication>
+</browserconfig>

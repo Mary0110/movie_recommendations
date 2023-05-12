@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Sign in</title>
+  <link rel="stylesheet" href="css/sign_in_sign_up.css">
+  <link rel="stylesheet" href="css/film_main.css">
+
+</head>
+<body>
+<header class="header"  id="header_body">
+<!--  <div class="logo">-->
+<!--    <a class="film-db" href="main_page.html" >FilmDb</a>-->
+<!--  </div>-->
+<!--  <label>-->
+<!--    <input class="search"></input>-->
+<!--  </label>-->
+<!--  <div class="nav_right" id="header-right">-->
+<!--&lt;!&ndash;    <a class= "your-ratings inter-bold-white-16px" href="fav.html">Your ratings</a>&ndash;&gt;-->
+<!--&lt;!&ndash;    <a class="your-ratings inter-bold-white-16px" href="sign_in.html">Sign in</a>&ndash;&gt;-->
+<!--  </div>-->
+</header>
+<div class="inside_content">
+  <div class="white-block">
+    <form class="my-form" action="main_page.html" method="get" id="authForm" name="signup">
+      <label class="label-for-input inter-bold-black-20px" for="email">E-mail</label>
+      <input
+        class="form-input-field"
+        id="email"
+        name="email"
+        type="email"
+        required/>
+    <label class="label-for-input inter-bold-black-20px" for="pass">Password</label>
+    <input
+      class="form-input-field"
+      id="pass"
+      name="password"
+      type="password"
+      minlength="8"
+      required/>
+      <label class="label-for-input inter-bold-black-20px" for="repeatpass">Repeat password</label>
+      <input
+        class="form-input-field"
+        id="repeatpass"
+        name="repeatpass"
+        type="password"
+        minlength="8"
+        required/>
+
+    <button class="yellow-button" type="submit">sign up</button>
+    </form>
+  </div>
+</div>
+<script type="module" src="js/sign_up.js"></script>
+</body>
+</html>
