@@ -26,7 +26,11 @@ Rated movies page
 
 <img width="1440" alt="image" src="https://github.com/Mary0110/movie_recommendations/assets/69244827/93125565-21d6-4bed-807c-086254708210">
 
-Rated movie page with pop-up
+Movie page
+
+<img width="775" alt="image" src="https://github.com/Mary0110/movie_recommendations/assets/69244827/e1e570ac-51cc-4cc7-8794-e30004e91e66">
+
+Movie page with pop-up
 
 <img width="1440" alt="image" src="https://github.com/Mary0110/movie_recommendations/assets/69244827/3c473ac2-224c-464b-b8b3-d972a2e65eec">
 
