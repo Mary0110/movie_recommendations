@@ -26,19 +26,21 @@ Rated movies page
 
 <img width="1440" alt="image" src="https://github.com/Mary0110/movie_recommendations/assets/69244827/93125565-21d6-4bed-807c-086254708210">
 
+Rated movie page with pop-up
+
+<img width="1440" alt="image" src="https://github.com/Mary0110/movie_recommendations/assets/69244827/3c473ac2-224c-464b-b8b3-d972a2e65eec">
+
+
 
 # Main functions
 1) Authorisation
 2) Registration
-3) Edit profile (personal data)
-4) View description of course
-5) View description of lesson
-6) Learn lesson
-7) Pass test
-8) View description of test
-9) Add comment to course and rate it
-10) Read comments
-
+3) View profile (personal data)
+4) View film info
+5) Rate film
+6) Get recommendations based on rated films
+7) View rated films list
+8) Play films trailers
 
 # Data models description
 User:
